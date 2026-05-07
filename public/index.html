@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saptak Nandi | Portfolio</title>
+    <meta
+        name="description"
+        content="Portfolio site for Saptak Nandi, a computer science student building practical web products and developer tools."
+    >
+    <meta name="theme-color" content="#22483f">
+    <meta property="og:title" content="Saptak Nandi | Portfolio">
+    <meta
+        property="og:description"
+        content="Portfolio site for Saptak Nandi, featuring projects, skills, certificates, and contact information."
+    >
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="my-profile.jpg.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;700&display=swap"
+        rel="stylesheet"
+    >
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <noscript>
+        <div class="noscript-banner">Enable JavaScript to load the portfolio content and interactive contact form.</div>
+    </noscript>
+    <div class="site-shell">
+        <header class="topbar">
+            <a class="brand" href="#home">SN</a>
+            <nav class="nav-links" aria-label="Primary">
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#certificates">Certificates</a>
+                <a href="#journey">Journey</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+
+        <main id="home">
+            <section class="hero-band">
+                <div class="content hero-grid">
+                    <div class="hero-copy">
+                        <p class="eyebrow" id="hero-availability"></p>
+                        <h1 id="hero-title"></h1>
+                        <p class="hero-role" id="hero-headline"></p>
+                        <p class="hero-summary" id="hero-summary"></p>
+                        <div class="hero-actions">
+                            <a class="button button-primary" href="#projects">See projects</a>
+                            <a class="button button-secondary" href="#contact">Start a conversation</a>
+                        </div>
+                        <ul class="hero-stats" id="hero-stats" aria-label="Highlights"></ul>
+                    </div>
+
+                    <div class="hero-portrait-wrap">
+                        <figure class="hero-portrait">
+                            <img src="my-profile.jpg.jpg" alt="Portrait of Saptak Nandi">
+                        </figure>
+                        <div class="hero-notes" id="hero-notes"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="info-band">
+                <div class="content intro-grid">
+                    <div>
+                        <p class="section-kicker">About</p>
+                        <h2>Building practical products with a student-builder mindset.</h2>
+                    </div>
+                    <div class="intro-copy">
+                        <p id="about-copy"></p>
+                        <div class="signature-row">
+                            <span id="hero-location"></span>
+                            <span id="hero-degree"></span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="project-band" id="projects">
+                <div class="content">
+                    <div class="section-head">
+                        <div>
+                            <p class="section-kicker">Selected work</p>
+                            <h2>Web projects, AI experiments, and tools that explain themselves.</h2>
+                        </div>
+                        <p class="section-copy">
+                            Each project leans toward clarity: clean interfaces, explainable logic, and a useful outcome for the person on the other side.
+                        </p>
+                    </div>
+
+                    <div class="project-controls" id="project-filters" aria-label="Project categories"></div>
+                    <div class="project-grid" id="project-grid"></div>
+                </div>
+            </section>
+
+            <section class="skills-band" id="skills">
+                <div class="content">
+                    <div class="section-head">
+                        <div>
+                            <p class="section-kicker">Capabilities</p>
+                            <h2>Comfortable across the stack, strongest where logic meets interface.</h2>
+                        </div>
+                    </div>
+                    <div class="focus-grid" id="focus-grid"></div>
+                </div>
+            </section>
+
+            <section class="certificates-band" id="certificates">
+                <div class="content">
+                    <div class="section-head">
+                        <div>
+                            <p class="section-kicker">Certificates</p>
+                            <h2>Proof of learning that supports the work behind the projects.</h2>
+                        </div>
+                        <p class="section-copy">
+                            This section is ready for your verified certificates, course completions, and platform badges.
+                        </p>
+                    </div>
+                    <div class="certificate-grid" id="certificate-grid"></div>
+                </div>
+            </section>
+
+            <section class="journey-band" id="journey">
+                <div class="content journey-grid">
+                    <div>
+                        <p class="section-kicker">Journey</p>
+                        <h2>Recent milestones shaping the next build.</h2>
+                    </div>
+                    <ol class="timeline" id="timeline"></ol>
+                </div>
+            </section>
+
+            <section class="contact-band" id="contact">
+                <div class="content contact-grid">
+                    <div>
+                        <p class="section-kicker">Contact</p>
+                        <h2>Open to internships, collaborations, and thoughtful web work.</h2>
+                        <p class="contact-copy" id="contact-copy"></p>
+                        <p class="contact-note" id="contact-note"></p>
+                        <div class="contact-links" id="contact-links"></div>
+                    </div>
+                    <form class="contact-form" id="contact-form">
+                        <div class="field-row">
+                            <label class="field">
+                                <span>Name</span>
+                                <input type="text" name="name" maxlength="80" required>
+                            </label>
+                            <label class="field">
+                                <span>Email</span>
+                                <input type="email" name="email" maxlength="120" required>
+                            </label>
+                        </div>
+                        <label class="field">
+                            <span>Subject</span>
+                            <input type="text" name="subject" maxlength="120" required>
+                        </label>
+                        <label class="field">
+                            <span>Message</span>
+                            <textarea name="message" rows="6" maxlength="1500" required></textarea>
+                        </label>
+                        <div class="form-actions">
+                            <button class="button button-submit" type="submit">Send message</button>
+                            <p class="form-status" id="form-status" aria-live="polite"></p>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="portfolio-data.js" defer></script>
+    <script src="app.js" defer></script>
+</body>
+</html>

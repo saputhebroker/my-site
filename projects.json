@@ -1,0 +1,49 @@
+[
+  {
+    "type": "education",
+    "title": "B.Tech in Computer Science & Engineering",
+    "institution": "MAKAUT (WBUT)",
+    "date": "2022 - 2026",
+    "description": "Currently in Final Year. Focused on Algorithms, DBMS, and Web Technologies.",
+    "order": 1
+  },
+  {
+    "type": "skill",
+    "title": "Languages & Tech",
+    "skills": [
+      "Python",
+      "JavaScript",
+      "Node.js",
+      "MongoDB",
+      "SQL",
+      "HTML/CSS"
+    ],
+    "order": 2
+  },
+  {
+    "type": "project",
+    "title": "AI Adaptive Quiz System",
+    "description": "Python-based application using Gemini API to adjust question difficulty in real-time.",
+    "techStack": [
+      "Python",
+      "Streamlit",
+      "Gemini API"
+    ],
+    "githubUrl": "https://github.com/yourusername",
+    "difficulty": "Advanced",
+    "order": 3
+  },
+  {
+    "type": "project",
+    "title": "Automated Code Reviewer",
+    "description": "A Node.js tool for analyzing code logic and suggesting optimizations.",
+    "techStack": [
+      "Node.js",
+      "Express",
+      "MongoDB"
+    ],
+    "githubUrl": "https://github.com/yourusername",
+    "difficulty": "Advanced",
+    "order": 4
+  }
+]

@@ -1,0 +1,69 @@
+FILES TO EDIT FOR THIS LIVE PORTFOLIO PROJECT
+
+If you want to add or remove things, these are the main files to change:
+
+1. portfolio.json
+   Use this for:
+   - projects
+   - certificates
+   - about text
+   - contact email
+   - skills and focus areas
+   - timeline items
+   - optional live project links
+   - optional contact form endpoint
+
+2. public/style.css
+   Use this for:
+   - colors
+   - spacing
+   - fonts
+   - section appearance
+   - form design
+   - mobile layout
+
+3. public/index.html
+   Use this for:
+   - adding a brand new section
+   - removing a section
+   - changing the page structure
+   - adding new form fields
+
+4. public/app.js
+   Use this for:
+   - how projects and certificates are rendered
+   - filters
+   - form behavior
+   - validation
+   - dynamic interactions
+
+5. server.js
+   Use this for:
+   - contact form backend logic
+   - saving submitted messages
+   - adding new API routes
+
+6. contact-submissions.json
+   Normally do not edit this by hand.
+   This file stores messages sent from the contact form.
+
+7. public/my-profile.jpg.jpg
+   Replace this file if you want a different profile photo.
+
+SHORT VERSION
+
+- Content changes: portfolio.json
+- Design changes: public/style.css
+- Layout changes: public/index.html
+- Behavior changes: public/app.js
+- Contact and backend changes: server.js
+
+QUICK EXAMPLES
+
+- To add a new project: edit portfolio.json
+- To add a certificate: edit portfolio.json
+- To change your email: edit portfolio.json
+- To add a live demo link: add project.liveUrl in portfolio.json
+- To connect Formspree or another form service: set contact.formEndpoint in portfolio.json
+- To change colors or styling: edit public/style.css
+- To add a new page section: edit public/index.html and public/app.js if needed

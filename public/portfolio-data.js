@@ -1,0 +1,195 @@
+// Generated from portfolio.json. Run "npm run build" after content updates.
+window.PORTFOLIO_DATA = {
+  "profile": {
+    "name": "Saptak Nandi",
+    "headline": "Computer science student building calm, clear, useful web products.",
+    "summary": "Focused on full-stack apps, AI-assisted learning tools, and developer-facing automation. I like projects that solve a real task and explain themselves through the interface.",
+    "about": "From adaptive quiz systems to code review helpers, my work usually starts with a small friction point and turns into a product with structure, logic, and a readable UI. I care about making technical ideas easier to use, not just easier to demo.",
+    "availability": "Available for internships and collaborative web projects",
+    "location": "West Bengal, India",
+    "degree": "B.Tech in Computer Science & Engineering, MAKAUT (2022-2026)",
+    "contactBlurb": "I am especially interested in internships, thoughtful product teams, and projects where design clarity matters as much as the underlying logic.",
+    "notes": [
+      "Full-stack student builder",
+      "AI + web workflows",
+      "Interface-first thinking"
+    ],
+    "stats": [
+      {
+        "value": "4",
+        "label": "featured builds"
+      },
+      {
+        "value": "2026",
+        "label": "graduation year"
+      },
+      {
+        "value": "3",
+        "label": "core focus areas"
+      }
+    ],
+    "links": [
+      {
+        "label": "Email",
+        "href": "mailto:email@example.com",
+        "external": false
+      },
+      {
+        "label": "GitHub",
+        "href": "https://github.com/yourusername",
+        "external": true
+      },
+      {
+        "label": "Projects",
+        "href": "#projects",
+        "external": false
+      }
+    ]
+  },
+  "focusAreas": [
+    {
+      "label": "Frontend",
+      "title": "Readable UI systems",
+      "description": "I enjoy building interfaces that feel lightweight, structured, and easy to scan on both mobile and desktop.",
+      "items": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Responsive layout"
+      ]
+    },
+    {
+      "label": "Backend",
+      "title": "Practical APIs and tooling",
+      "description": "Most of my backend work is about simple data flows, routing, storage, and keeping the overall system easy to reason about.",
+      "items": [
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "REST endpoints"
+      ]
+    },
+    {
+      "label": "Applied AI",
+      "title": "Useful intelligence, not just novelty",
+      "description": "I like AI when it helps adapt a learning path, summarize logic, or automate repetitive review work without making the product opaque.",
+      "items": [
+        "Python",
+        "Gemini API",
+        "Prompt design",
+        "Data workflows"
+      ]
+    }
+  ],
+  "certificates": [
+    {
+      "title": "Add your first certificate here",
+      "issuer": "Issuing platform",
+      "year": "2025",
+      "description": "Replace this sample with a real certification title, the platform that issued it, and one line about what it covered.",
+      "credentialUrl": "#",
+      "ctaLabel": "Update this entry"
+    },
+    {
+      "title": "Add your second certificate here",
+      "issuer": "Course provider",
+      "year": "2025",
+      "description": "This slot works well for a technical course, a programming badge, or a verified completion certificate.",
+      "credentialUrl": "#",
+      "ctaLabel": "Update this entry"
+    },
+    {
+      "title": "Add your third certificate here",
+      "issuer": "Certification body",
+      "year": "2026",
+      "description": "Use this for your strongest proof point, especially one that supports the kind of roles you want next.",
+      "credentialUrl": "#",
+      "ctaLabel": "Update this entry"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "2022",
+      "title": "Started B.Tech in CSE",
+      "description": "Built the foundations in algorithms, databases, and the sort of problem-solving that later turned into product ideas."
+    },
+    {
+      "year": "2024",
+      "title": "Shifted toward product-led learning tools",
+      "description": "Started combining web development with educational workflows, especially interfaces that respond to user progress."
+    },
+    {
+      "year": "2025",
+      "title": "Expanded into developer tooling",
+      "description": "Explored review assistants and automation-focused projects that reduce repetitive technical work."
+    },
+    {
+      "year": "2026",
+      "title": "Preparing for internships and production work",
+      "description": "Sharpening real-world polish: cleaner UI, better project storytelling, and more dependable end-to-end builds."
+    }
+  ],
+  "projects": [
+    {
+      "title": "AI-Powered Adaptive Quiz System",
+      "description": "A full-stack learning app that adjusts question difficulty based on user performance, aiming to keep practice sessions challenging without turning them frustrating.",
+      "techStack": [
+        "Python",
+        "Streamlit",
+        "Gemini API",
+        "MongoDB"
+      ],
+      "githubUrl": "https://github.com/yourusername/adaptive-quiz",
+      "category": "Artificial Intelligence",
+      "level": "Advanced",
+      "highlight": "Real-time difficulty tuning with a learner-focused workflow."
+    },
+    {
+      "title": "Automated Code Review Assistant",
+      "description": "A tool built for fast technical feedback during short development cycles, surfacing syntax issues and likely logic mistakes before manual review starts.",
+      "techStack": [
+        "Node.js",
+        "Express",
+        "Python",
+        "Google Colab"
+      ],
+      "githubUrl": "https://github.com/yourusername/code-reviewer",
+      "category": "Software Engineering",
+      "level": "Advanced",
+      "highlight": "Designed to shorten the first review pass during rapid builds."
+    },
+    {
+      "title": "Digital Logic Simulator",
+      "description": "A browser-based simulator for core electronics concepts, giving students a more interactive way to understand components like flip-flops, encoders, and decoders.",
+      "techStack": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Canvas API"
+      ],
+      "githubUrl": "https://github.com/yourusername/logic-sim",
+      "category": "Electronics/CSE",
+      "level": "Intermediate",
+      "highlight": "Turns abstract classroom topics into something visual and testable."
+    },
+    {
+      "title": "Linear Regression Analysis Tool",
+      "description": "A data exploration project that visualizes datasets and uses regression models to surface patterns, trends, and prediction signals in a readable format.",
+      "techStack": [
+        "Python",
+        "Pandas",
+        "Matplotlib",
+        "Scikit-Learn"
+      ],
+      "githubUrl": "https://github.com/yourusername/data-analysis",
+      "category": "Data Science",
+      "level": "Intermediate",
+      "highlight": "Blends model output with charts that help explain the result."
+    }
+  ],
+  "contact": {
+    "email": "email@example.com",
+    "formEndpoint": "",
+    "deliveryNote": "On a Node host this form can save submissions automatically. On a static host, point it to a form service or let it fall back to your email app after you replace the sample email."
+  }
+};

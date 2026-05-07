@@ -1,0 +1,30 @@
+[
+  {
+    "title": "AI-Powered Adaptive Quiz System",
+    "description": "A full-stack application that generates dynamic questions based on user performance using the Gemini API.",
+    "techStack": ["Python", "Streamlit", "Gemini API", "MongoDB"],
+    "githubUrl": "https://github.com/yourusername/adaptive-quiz",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "title": "Automated Code Review Assistant",
+    "description": "A tool designed for hackathons that automatically checks code for syntax errors and logic flaws.",
+    "techStack": ["Node.js", "Express", "Python", "Google Colab"],
+    "githubUrl": "https://github.com/yourusername/code-reviewer",
+    "category": "Software Engineering"
+  },
+  {
+    "title": "Digital Logic Simulator",
+    "description": "A web-based simulator for visualizing Flip-Flops, Encoders, and Decoders for electronics students.",
+    "techStack": ["HTML5", "CSS3", "JavaScript", "Canvas API"],
+    "githubUrl": "https://github.com/yourusername/logic-sim",
+    "category": "Electronics/CSE"
+  },
+  {
+    "title": "Linear Regression Analysis Tool",
+    "description": "A data science project that visualizes Kaggle datasets to predict trends using regression models.",
+    "techStack": ["Python", "Pandas", "Matplotlib", "Scikit-Learn"],
+    "githubUrl": "https://github.com/yourusername/data-analysis",
+    "category": "Data Science"
+  }
+]

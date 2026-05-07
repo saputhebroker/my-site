@@ -1,0 +1,22 @@
+{
+  "name": "portfoilo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "sync:data": "node scripts/sync-portfolio-data.js",
+    "build": "npm run sync:data",
+    "dev": "npm run sync:data && node server.js",
+    "prestart": "npm run sync:data",
+    "start": "node server.js",
+    "test": "echo \"No tests configured\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.4.1",
+    "express": "^5.2.1",
+    "mongodb": "^7.1.1"
+  }
+}
