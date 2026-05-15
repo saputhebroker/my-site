@@ -6,7 +6,7 @@
     "about": "From adaptive quiz systems to code review helpers, my work usually starts with a small friction point and turns into a product with structure, logic, and a readable UI. I care about making technical ideas easier to use, not just easier to demo.",
     "availability": "Available for internships and collaborative web projects",
     "location": "West Bengal, India",
-    "degree": "B.Tech in Computer Science & Engineering, MAKAUT (2022-2026)",
+    "degree": "B.Tech in Computer Science & Engineering,TEchno Institute of Engineering and Management ,MAKAUT (2024-2028)",
     "contactBlurb": "I am especially interested in internships, thoughtful product teams, and projects where design clarity matters as much as the underlying logic.",
     "notes": [
       "Full-stack student builder",
@@ -30,12 +30,12 @@
     "links": [
       {
         "label": "Email",
-        "href": "mailto:binkkbik2@gmail.com",
+        "href": "mailto:example",
         "external": false
       },
       {
         "label": "GitHub",
-        "href": "https://github.com/saputhebroker",
+        "href": "https://github.com/......",
         "external": true
       },
       {
@@ -108,22 +108,22 @@
   ],
   "timeline": [
     {
-      "year": "2022",
+      "year": "2024",
       "title": "Started B.Tech in CSE",
       "description": "Built the foundations in algorithms, databases, and the sort of problem-solving that later turned into product ideas."
     },
     {
-      "year": "2024",
+      "year": "2025",
       "title": "Shifted toward product-led learning tools",
       "description": "Started combining web development with educational workflows, especially interfaces that respond to user progress."
     },
     {
-      "year": "2025",
+      "year": "2026",
       "title": "Expanded into developer tooling",
       "description": "Explored review assistants and automation-focused projects that reduce repetitive technical work."
     },
     {
-      "year": "2026",
+      "year": "2027",
       "title": "Preparing for internships and production work",
       "description": "Sharpening real-world polish: cleaner UI, better project storytelling, and more dependable end-to-end builds."
     }
