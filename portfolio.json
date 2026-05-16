@@ -31,18 +31,14 @@
       {
         "label": "Email",
         "href": "binkkkbik2@gmail.com",
-        "external": false
+        "external": true
       },
       {
         "label": "GitHub",
         "href": "https://github.com/saputhebroker",
         "external": true
       },
-      {
-        "label": "Projects",
-        "href": "#projects",
-        "external": false
-      }
+      
     ]
   },
   "focusAreas": [
