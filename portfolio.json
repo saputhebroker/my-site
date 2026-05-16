@@ -35,7 +35,7 @@
       },
       {
         "label": "GitHub",
-        "href": "https://github.com/yourusername",
+        "href": "https://github.com/saputhebroker",
         "external": true
       },
       {
@@ -167,7 +167,7 @@
         "Canvas API"
       ],
       "githubUrl": "https://github.com/yourusername/logic-sim",
-      "category": "Electronics/CSE",
+      "category": "CSE",
       "level": "Intermediate",
       "highlight": "Turns abstract classroom topics into something visual and testable."
     },
@@ -187,7 +187,8 @@
     }
   ],
   "contact": {
-    "email": "binkkkbik2@gmail.com",
+    "Email": "binkkkbik2@gmail.com",
+    "Github":"https://github.com/saputhebroker"
     "formEndpoint": "",
     "deliveryNote": ""
   }
