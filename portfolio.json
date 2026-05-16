@@ -38,6 +38,11 @@
         "href": "https://github.com/saputhebroker",
         "external": true
       },
+      {
+        "label": "Github",
+        "href": "https://github.com/saputhebroker",
+        "external": false
+      }
       
     ]
   },
