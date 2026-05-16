@@ -28,19 +28,18 @@
       }
     ],
     "links": [
-      {
-        "label": "Email",
-        "href": "binkkkbik2@gmail.com",
-        "external": false
-      },
-     
-      {
-        "label": "Email",
-        "href": "binkkbik2@gmail.com",
-        "external": false
-      }
-      
-    ]
+  {
+    "label": "Email",
+    "href": "binkkbik23@gmail.com",
+    "external": false
+  },
+  {
+    "label": "GitHub",
+    "href": "https://github.com/saputhebroker",
+    "external": true
+  }
+]
+
   },
   "focusAreas": [
     {
@@ -184,8 +183,9 @@
     }
   ],
   "contact": {
-    "email": "binkkkbik2@gmail.com",
-    "formEndpoint": "",
-    "deliveryNote": "Open to work"
-  }
+  "email": "binkkbik23@gmail.com",
+  "formEndpoint": "",
+  "deliveryNote": "Open to internships, freelance work, and collaborations."
+}
+
 }
