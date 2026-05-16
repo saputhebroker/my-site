@@ -1,12 +1,12 @@
 {
   "profile": {
-    "name": "Saptak Nandii",
+    "name": "Saptak Nandi",
     "headline": "Computer science student building  clear, useful web products.",
     "summary": "Focused on full-stack apps, AI-assisted learning tools, and developer-facing automation. I like projects that solve a real task and explain themselves through the interface.",
     "about": "From adaptive quiz systems to code review helpers, my work usually starts with a small friction point and turns into a product with structure, logic, and a readable UI. I care about making technical ideas easier to use, not just easier to demo.",
     "availability": "Available for internships and collaborative web projects",
     "location": "West Bengal, India",
-    "degree": "B.Tech in Computer Science & Engineering, MAKAUT (2024-2028)",
+    "degree": "B.Tech in Computer Science & Engineering,Techno Institute Of Engineering And Management ,MAKAUT (2024-2028)",
     "contactBlurb": "I am especially interested in internships, thoughtful product teams, and projects where design clarity matters as much as the underlying logic.",
     "notes": [
       "Full-stack student builder",
@@ -19,7 +19,7 @@
         "label": "featured builds"
       },
       {
-        "value": "2026",
+        "value": "2028",
         "label": "graduation year"
       },
       {
@@ -30,7 +30,7 @@
     "links": [
       {
         "label": "Email",
-        "href": "mailto:email@example.com",
+        "href": "binkkkbik2@gmail.com",
         "external": false
       },
       {
@@ -108,22 +108,22 @@
   ],
   "timeline": [
     {
-      "year": "2022",
+      "year": "2024",
       "title": "Started B.Tech in CSE",
       "description": "Built the foundations in algorithms, databases, and the sort of problem-solving that later turned into product ideas."
     },
     {
-      "year": "2024",
+      "year": "2025",
       "title": "Shifted toward product-led learning tools",
       "description": "Started combining web development with educational workflows, especially interfaces that respond to user progress."
     },
     {
-      "year": "2025",
+      "year": "2026",
       "title": "Expanded into developer tooling",
       "description": "Explored review assistants and automation-focused projects that reduce repetitive technical work."
     },
     {
-      "year": "2026",
+      "year": "2027",
       "title": "Preparing for internships and production work",
       "description": "Sharpening real-world polish: cleaner UI, better project storytelling, and more dependable end-to-end builds."
     }
@@ -187,8 +187,8 @@
     }
   ],
   "contact": {
-    "email": "email@example.com",
+    "email": "binkkkbik2@gmail.com",
     "formEndpoint": "",
-    "deliveryNote": "On a Node host this form can save submissions automatically. On a static host, point it to a form service or let it fall back to your email app after you replace the sample email."
+    "deliveryNote": ""
   }
 }
